@@ -8,7 +8,7 @@ void MyInit(void) {
 
 void MyDisplay(void) {
 	glClear(GL_COLOR_BUFFER_BIT);
-	//칼라 버퍼를 지워줌.
+	//칼라 버퍼를 지움.
 
 	gluLookAt(0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0);
 
